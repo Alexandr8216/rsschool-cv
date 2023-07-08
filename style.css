@@ -1,3 +1,73 @@
-.color{
-    color: green;
+body {
+    background-color: #D4F1F4;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
+#osnova{
+    width: 1000px;
+    margin-left: 450px;
+    margin-top: -20px;
+    background-color: #ffffff;
+    height: 1100px;
+}
+#Contacts{
+    width: 500px;  
+    background-color: #75E6DA;
+    margin-left: -500px;
+    
+}
+#Information{
+    width: 500px;  
+    background-color: #75E6DA;
+    margin-left: 500px;
+    margin-top: -20px;
+}
+#skills{
+    width: 500px;  
+    background-color: #75E6DA;
+    margin-left: -500px;
+    margin-top: -20px;
+}
+#Code{
+    width: 500px;  
+    background-color: #75E6DA;
+    margin-left: 500px;
+    margin-top: -20px;
+}
+#English{
+    width: 500px;  
+    background-color: #75E6DA;
+    margin-left: -500px;
+    margin-top: -20px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+#footer{
+    background-color: #75a0e6; 
+}
+h1{
+    background-color: #75a0e6;   
+}
+#a{
+    margin-left: -650px;
+    width: 333px; 
+
+}
+#p{
+    margin-top: -100px;
+    width: 333px; 
+}
+#a1{
+    margin-top: -70px;
+    width: 333px; 
+    margin-right: -650px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
