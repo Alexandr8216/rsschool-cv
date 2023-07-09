@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Franklin Gothic Medium';
 }
 #osnova{
     width: 1000px;
@@ -10,12 +11,11 @@ body {
     margin-top: -20px;
     background-color: #ffffff;
     height: 1100px;
+    text-align-last: center;
 }
 #Contacts{
     width: 500px;  
     background-color: #75E6DA;
-    margin-left: -500px;
-    
 }
 #Information{
     width: 500px;  
@@ -23,10 +23,9 @@ body {
     margin-left: 500px;
     margin-top: -20px;
 }
-#skills{
+#Skills{
     width: 500px;  
     background-color: #75E6DA;
-    margin-left: -500px;
     margin-top: -20px;
 }
 #Code{
@@ -38,12 +37,11 @@ body {
 #English{
     width: 500px;  
     background-color: #75E6DA;
-    margin-left: -500px;
     margin-top: -20px;
 }
 p{
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium';
+  
 }
 #footer{
     background-color: #75a0e6; 
@@ -52,22 +50,45 @@ h1{
     background-color: #75a0e6;   
 }
 #a{
-    margin-left: -650px;
+
     width: 333px; 
 
 }
 #p{
     margin-top: -100px;
     width: 333px; 
+    margin-left:325px;
 }
 #a1{
     margin-top: -70px;
     width: 333px; 
-    margin-right: -650px;
+    margin-left:650px;
 }
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+  }
+  #Education {width: 500px;  
+  background-color: #75E6DA;
+  margin-left: 500px;
+  margin-top: -20px;}
+  .header{
+    margin-right: 450px;
+  }
+  li {
+    display: inline;
+    margin-right: 20px;
+    }
+  .nav-link {
+    transition: .3s;
+  }
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
   }
